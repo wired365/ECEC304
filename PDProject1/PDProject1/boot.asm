@@ -150,7 +150,7 @@ ENDIF
     reti
 
     org   24h                      ;PSoC Block DBB01 Interrupt Vector
-    ljmp	_LEDFlashTimer_ISR
+    // call	void_handler
     reti
 
     org   28h                      ;PSoC Block DCB02 Interrupt Vector

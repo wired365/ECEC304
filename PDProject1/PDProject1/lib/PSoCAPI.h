@@ -5,7 +5,6 @@
 #define __PSOCAPI_H
 
 #include "PSoCGPIOINT.h"
-#include "LEDFlashTimer.h"
 #include "VR_ADC.h"
 #include "VR_PGA.h"
 

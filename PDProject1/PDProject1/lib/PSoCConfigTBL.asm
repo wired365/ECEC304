@@ -7,11 +7,6 @@ export LoadConfigTBL_pdproject1_Bank0
 export LoadConfigTBL_pdproject1_Ordered
 AREA lit(rom, rel)
 LoadConfigTBL_pdproject1_Bank0:
-;  Instance name LEDFlashTimer, User Module Timer8
-;       Instance name LEDFlashTimer, Block Name TIMER8(DBB01)
-	db		27h, 04h		;LEDFlashTimer_CONTROL_REG(DBB01CR0)
-	db		25h, fah		;LEDFlashTimer_PERIOD_REG(DBB01DR1)
-	db		26h, 00h		;LEDFlashTimer_COMPARE_REG(DBB01DR2)
 ;  Instance name VR_ADC, User Module ADCINC
 ;       Instance name VR_ADC, Block Name ADC(ASC10)
 	db		80h, 90h		;VR_ADC_AtoDcr0(ASC10CR0)
@@ -70,11 +65,6 @@ LoadConfigTBL_pdproject1_Bank0:
 	db		6fh, 00h		; TMP_DR3 register (TMP_DR3)
 	db		ffh
 LoadConfigTBL_pdproject1_Bank1:
-;  Instance name LEDFlashTimer, User Module Timer8
-;       Instance name LEDFlashTimer, Block Name TIMER8(DBB01)
-	db		24h, 30h		;LEDFlashTimer_FUNC_REG(DBB01FN)
-	db		25h, 01h		;LEDFlashTimer_INPUT_REG(DBB01IN)
-	db		26h, 46h		;LEDFlashTimer_OUTPUT_REG(DBB01OU)
 ;  Instance name VR_ADC, User Module ADCINC
 ;       Instance name VR_ADC, Block Name ADC(ASC10)
 ;       Instance name VR_ADC, Block Name PWM(DBB00)
@@ -109,10 +99,10 @@ LoadConfigTBL_pdproject1_Ordered:
 	M8C_SetBank0
 	mov	reg[00h], 00h		; Port_0_Data register (PRT0DR)
 	M8C_SetBank1
-	mov	reg[00h], 05h		; Port_0_DriveMode_0 register (PRT0DM0)
-	mov	reg[01h], fah		; Port_0_DriveMode_1 register (PRT0DM1)
+	mov	reg[00h], 1fh		; Port_0_DriveMode_0 register (PRT0DM0)
+	mov	reg[01h], e0h		; Port_0_DriveMode_1 register (PRT0DM1)
 	M8C_SetBank0
-	mov	reg[03h], fah		; Port_0_DriveMode_2 register (PRT0DM2)
+	mov	reg[03h], e0h		; Port_0_DriveMode_2 register (PRT0DM2)
 	mov	reg[02h], 04h		; Port_0_GlobalSelect register (PRT0GS)
 	M8C_SetBank1
 	mov	reg[02h], 00h		; Port_0_IntCtrl_0 register (PRT0IC0)

@@ -389,139 +389,137 @@ dbfile lib/psocconfigtbl.asm
 dbfunc 0 ? 0 I
 dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
 dbfunc 0 ? 0 I
-A lit size 9C flags 0
+A lit size 90 flags 0
 S LoadConfigTBL_pdproject1_Bank0 Def0000
-S LoadConfigTBL_pdproject1_Bank1 Def006B
+S LoadConfigTBL_pdproject1_Bank1 Def0065
 A psoc_config size 105 flags 0
 dbfile lib/psocconfigtbl.asm
 dbfunc 0 ? 0 I
 dbline 2 0
-dbline 6E 2
+dbline 64 2
 dbline 2 5
-dbline 70 7
-dbline 71 A
+dbline 66 7
+dbline 67 A
 dbline 2 D
-dbline 73 F
-dbline 74 12
+dbline 69 F
+dbline 6A 12
 dbline 2 15
-dbline 76 17
-dbline 77 1A
+dbline 6C 17
+dbline 6D 1A
 dbline 2 1D
-dbline 79 1F
-dbline 7A 22
+dbline 6F 1F
+dbline 70 22
 dbline 2 25
-dbline 7C 27
-dbline 7D 2A
+dbline 72 27
+dbline 73 2A
 dbline 2 2D
-dbline 7F 2F
-dbline 80 32
+dbline 75 2F
+dbline 76 32
 dbline 2 35
-dbline 82 37
-dbline 83 3A
+dbline 78 37
+dbline 79 3A
 dbline 2 3D
-dbline 85 3F
-dbline 86 42
+dbline 7B 3F
+dbline 7C 42
 dbline 2 45
-dbline 88 47
-dbline 89 4A
+dbline 7E 47
+dbline 7F 4A
 dbline 2 4D
-dbline 8B 4F
-dbline 8C 52
+dbline 81 4F
+dbline 82 52
 dbline 2 55
-dbline 8E 57
-dbline 8F 5A
+dbline 84 57
+dbline 85 5A
 dbline 2 5D
-dbline 91 5F
-dbline 92 62
+dbline 87 5F
+dbline 88 62
 dbline 2 65
-dbline 94 67
-dbline 95 6A
+dbline 8A 67
+dbline 8B 6A
 dbline 2 6D
-dbline 97 6F
-dbline 98 72
+dbline 8D 6F
+dbline 8E 72
 dbline 2 75
-dbline 9A 77
-dbline 9B 7A
+dbline 90 77
+dbline 91 7A
 dbline 2 7D
-dbline 9D 7F
-dbline 9E 82
+dbline 93 7F
+dbline 94 82
 dbline 2 85
-dbline A0 87
-dbline A1 8A
+dbline 96 87
+dbline 97 8A
 dbline 2 8D
-dbline A3 8F
-dbline A4 92
+dbline 99 8F
+dbline 9A 92
 dbline 2 95
-dbline A6 97
-dbline A7 9A
+dbline 9C 97
+dbline 9D 9A
 dbline 2 9D
-dbline A9 9F
-dbline AA A2
+dbline 9F 9F
+dbline A0 A2
 dbline 2 A5
-dbline AC A7
-dbline AD AA
+dbline A2 A7
+dbline A3 AA
 dbline 2 AD
-dbline AF AF
-dbline B0 B2
+dbline A5 AF
+dbline A6 B2
 dbline 2 B5
-dbline B2 B7
-dbline B3 BA
+dbline A8 B7
+dbline A9 BA
 dbline 2 BD
-dbline B5 BF
-dbline B6 C2
+dbline AB BF
+dbline AC C2
 dbline 2 C5
-dbline B8 C7
-dbline B9 CA
+dbline AE C7
+dbline AF CA
 dbline 2 CD
-dbline BB CF
-dbline BC D2
+dbline B1 CF
+dbline B2 D2
 dbline 2 D5
-dbline BE D7
-dbline BF DA
+dbline B4 D7
+dbline B5 DA
 dbline 2 DD
-dbline C1 DF
-dbline C2 E2
+dbline B7 DF
+dbline B8 E2
 dbline 2 E5
-dbline C4 E7
-dbline C5 EA
+dbline BA E7
+dbline BB EA
 dbline 2 ED
-dbline C7 EF
-dbline C8 F2
+dbline BD EF
+dbline BE F2
 dbline 2 F5
-dbline CA F7
-dbline CB FA
+dbline C0 F7
+dbline C1 FA
 dbline 2 FD
-dbline CD FF
+dbline C3 FF
 dbline 2 102
-dbline CF 104
+dbline C5 104
 S LoadConfigTBL_pdproject1_Ordered Def0000
-T 00 00 27 04 25 FA 26 00 80 90 81 00 82 60 83 F0
+T 00 00 80 90 81 00 82 60 83 F0 23 00 21 00 22 01
 R 00 00 00 01
-T 00 0E 23 00 21 00 22 01 71 FD 72 21 73 20 70 00
+T 00 0E 71 FD 72 21 73 20 70 00 60 28 66 00 63 05
 R 00 00 00 01
-T 00 1C 60 28 66 00 63 05 65 00 E6 00 E7 42 D6 00
+T 00 1C 65 00 E6 00 E7 42 D6 00 B0 00 B1 00 B2 00
 R 00 00 00 01
-T 00 2A B0 00 B1 00 B2 00 B3 33 B4 33 B5 00 B6 01
+T 00 2A B3 33 B4 33 B5 00 B6 01 B8 55 B9 00 BA 10
 R 00 00 00 01
-T 00 38 B8 55 B9 00 BA 10 BB 33 BC 33 BD 00 BE 00
+T 00 38 BB 33 BC 33 BD 00 BE 00 C0 00 C1 00 C2 20
 R 00 00 00 01
-T 00 46 C0 00 C1 00 C2 20 C3 33 C4 33 C5 00 C6 00
+T 00 46 C3 33 C4 33 C5 00 C6 00 C8 55 C9 00 CA 30
 R 00 00 00 01
-T 00 54 C8 55 C9 00 CA 30 CB 33 CC 33 CD 00 CE 00
+T 00 54 CB 33 CC 33 CD 00 CE 00 6C 00 6D 00 6E 00
 R 00 00 00 01
-T 00 62 6C 00 6D 00 6E 00 6F 00 FF 24 30 25 01 26
+T 00 62 6F 00 FF 20 31 21 15 22 40 61 00 69 00 60
 R 00 00 00 01
-T 00 70 46 20 31 21 15 22 40 61 00 69 00 60 00 62
+T 00 70 00 62 00 67 33 68 33 63 00 66 00 D1 00 D3
 R 00 00 00 01
-T 00 7E 00 67 33 68 33 63 00 66 00 D1 00 D3 00 D0
+T 00 7E 00 D0 00 D2 00 E1 2F E2 00 DF F9 DE 02 DD
 R 00 00 00 01
-T 00 8C 00 D2 00 E1 2F E2 00 DF F9 DE 02 DD 00 E7
+T 00 8C 00 E7 48 FF
 R 00 00 00 01
-T 00 9A 48 FF
-R 00 00 00 01
-T 00 00 70 EF 62 00 00 71 10 62 00 05 62 01 FA 70
+T 00 00 70 EF 62 00 00 71 10 62 00 1F 62 01 E0 70
 R 00 00 00 02
-T 00 0E EF 62 03 FA 62 02 04 71 10 62 02 00 62 03
+T 00 0E EF 62 03 E0 62 02 04 71 10 62 02 00 62 03
 R 00 00 00 02
 T 00 1C 00 70 EF 62 01 00 62 04 00 71 10 62 04 00
 R 00 00 00 02
@@ -662,161 +660,4 @@ T 00 4E 28 4F 59 FD 61 00 18 20 75 09 00 8F D7 38
 R 00 00 00 01
 T 00 5C FC 70 3F 71 C0 7F
 R 00 00 00 01
-.end
-.start
-XH
-H 3 areas 2 global symbols
-M ledflashtimerint.asm
-S _LEDFlashTimer_ISR_C Ref0000
-A text size 0 flags 0
-dbfile lib/ledflashtimerint.asm
-dbfunc 0 ? 0 I
-dbfile LEDFlashTimer.inc
-dbfunc 0 ? 0 I
-dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
-dbfunc 0 ? 0 I
-dbfile ./lib/LEDFlashTimer.inc
-dbfunc 0 ? 0 I
-dbfile lib/ledflashtimerint.asm
-dbfunc 0 ? 0 I
-dbfile memory.inc
-dbfunc 0 ? 0 I
-dbfile lib/ledflashtimerint.asm
-dbfunc 0 ? 0 I
-dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
-dbfunc 0 ? 0 I
-A InterruptRAM size 0 flags 20
-A UserModules size 4 flags 0
-dbfile lib/ledflashtimerint.asm
-dbfunc 0 ? 0 I
-dbline 42 0
-dbline 5A 3
-S _LEDFlashTimer_ISR Def0000
-T 00 00 7D 00 00 7E
-R 00 00 00 02 02 03 00 00
-.end
-.start
-XH
-H 3 areas 2E global symbols
-M ledflashtimer.asm
-A text size 0 flags 0
-dbfile lib/ledflashtimer.asm
-dbfunc 0 ? 0 I
-dbfile LEDFlashTimer.inc
-dbfunc 0 ? 0 I
-dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
-dbfunc 0 ? 0 I
-dbfile ./lib/LEDFlashTimer.inc
-dbfunc 0 ? 0 I
-dbfile lib/ledflashtimer.asm
-dbfunc 0 ? 0 I
-dbfile memory.inc
-dbfunc 0 ? 0 I
-dbfile lib/ledflashtimer.asm
-dbfunc 0 ? 0 I
-dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
-dbfunc 0 ? 0 I
-A pdproject1_RAM size 0 flags 20
-A UserModules size 49 flags 0
-dbfile lib/ledflashtimer.asm
-dbfunc 0 ? 0 I
-dbline 2 0
-dbline 66 3
-dbline 2 4
-dbline 82 7
-dbline 2 8
-dbline 9E B
-dbline 2 C
-dbline BA F
-dbline D5 10
-dbline D7 12
-dbline F3 13
-dbline F5 15
-dbline 110 16
-dbline 112 18
-dbline 145 19
-dbline 146 1A
-dbline 147 1C
-dbline 148 1E
-dbline 149 1F
-dbline 14A 21
-dbline 14B 22
-dbline 14D 24
-dbline 14E 26
-dbline 14F 28
-dbline 150 2A
-dbline 151 2D
-dbline 152 2F
-dbline 154 31
-dbline 2 33
-dbline 2 35
-dbline 157 38
-dbline 158 39
-dbline 159 3B
-dbline 15A 3C
-dbline 15B 3E
-dbline 3 3F
-dbline 4 41
-dbline 15D 43
-dbline 186 44
-dbline 188 46
-dbline 18A 48
-S bLEDFlashTimer_ReadTimer Def0044
-S LEDFlashTimer_bReadTimer Def0044
-S LEDFlashTimer_DisableInt Def0004
-S $sb$LEDFlashTimer_WriteCompareValue Def0013
-S $se$LEDFlashTimer_WriteCompareValue Def0016
-S $sb$LEDFlashTimer_bReadTimer Def0044
-S $sb$LEDFlashTimer_DisableInt Def0004
-S $se$LEDFlashTimer_bReadTimer Def0049
-S $se$LEDFlashTimer_DisableInt Def0008
-S _bLEDFlashTimer_ReadCompareValue Def0016
-S _LEDFlashTimer_bReadCompareValue Def0016
-S _LEDFlashTimer_Stop Def000C
-S bLEDFlashTimer_ReadTimerSaveCV Def0019
-S LEDFlashTimer_bReadTimerSaveCV Def0019
-S LEDFlashTimer_Start Def0008
-S bLEDFlashTimer_CaptureCounter Def0044
-S _bLEDFlashTimer_ReadCounter Def0019
-S $sb$LEDFlashTimer_bReadTimerSaveCV Def0019
-S $se$LEDFlashTimer_bReadTimerSaveCV Def0044
-S $sb$LEDFlashTimer_Start Def0008
-S $se$LEDFlashTimer_Start Def000C
-S _LEDFlashTimer_WriteCompareValue Def0013
-S _bLEDFlashTimer_ReadTimer Def0044
-S _LEDFlashTimer_bReadTimer Def0044
-S _LEDFlashTimer_DisableInt Def0004
-S _bLEDFlashTimer_ReadTimerSaveCV Def0019
-S _LEDFlashTimer_bReadTimerSaveCV Def0019
-S _LEDFlashTimer_Start Def0008
-S LEDFlashTimer_WritePeriod Def0010
-S LEDFlashTimer_EnableInt Def0000
-S _bLEDFlashTimer_CaptureCounter Def0044
-S $sb$LEDFlashTimer_WritePeriod Def0010
-S $se$LEDFlashTimer_WritePeriod Def0013
-S $sb$LEDFlashTimer_EnableInt Def0000
-S $se$LEDFlashTimer_EnableInt Def0004
-S bLEDFlashTimer_ReadCompareValue Def0016
-S LEDFlashTimer_bReadCompareValue Def0016
-S LEDFlashTimer_Stop Def000C
-S bLEDFlashTimer_ReadCounter Def0019
-S $sb$LEDFlashTimer_bReadCompareValue Def0016
-S $se$LEDFlashTimer_bReadCompareValue Def0019
-S $sb$LEDFlashTimer_Stop Def000C
-S $se$LEDFlashTimer_Stop Def0010
-S _LEDFlashTimer_WritePeriod Def0010
-S LEDFlashTimer_WriteCompareValue Def0013
-S _LEDFlashTimer_EnableInt Def0000
-T 00 00 43 E1 02 7F 41 E1 FD 7F 43 27 01 7F 41 27
-R 00 00 00 02
-T 00 0E FE 7F 60 25 7F 60 26 7F 5D 26 7F 4F 38 02
-R 00 00 00 02
-T 00 1C 5D 27 08 5D 26 08 5D 24 5D 26 54 01 50 00
-R 00 00 00 02
-T 00 2A 49 F7 01 A0 03 50 01 54 00 70 FE 41 27 FE
-R 00 00 00 02
-T 00 38 18 60 26 18 60 27 18 70 3F 71 C0 7E 5D 24
-R 00 00 00 02
-T 00 46 5D 26 7F
-R 00 00 00 02
 .end
